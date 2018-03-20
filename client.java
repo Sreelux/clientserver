@@ -1,4 +1,4 @@
-mport java.io.*;
+import java.io.*;
 import java.net.*;
 
 class TCPClient {
@@ -6,6 +6,6 @@ class TCPClient {
   String sentence;
   String modifiedSentence;
 BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));
-  Socket clientSocket = new Socket("localhost", 6789);
+  
 }
   }
